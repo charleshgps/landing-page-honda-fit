@@ -72,18 +72,20 @@ span {
 }
 
 p {
-    line-height: 20px;
+    line-height: 16px;
     max-width: 500px;
     font-family: poppinslight;
 }
 
 img {
     padding: 50px;
-    display: flex;
-    width: 100%;
+    position: absolute;
+    width: 55%;
+    height: 55%;
     background-color: #535765;
     background-image: linear-gradient(160deg, #535765 0%, #0d1116 100%);
     border-radius: 84% 16% 80% 20% / 21% 82% 18% 79%;
+    
 }
 
 form {
